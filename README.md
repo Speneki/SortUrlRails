@@ -1,3 +1,6 @@
+The goal is to create a URL shorener, and save URLS in the database to grab later. If the possible URL characters are exclusively in the 62 length string of "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", all shortened URLS will be generated on base 62. 
+
+
 # Intial Setup
 
     docker-compose build
