@@ -1,5 +1,7 @@
 The goal is to create a URL shorener, and save URLS in the database to grab later. If the possible URL characters are exclusively in the 62 length string of "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", all shortened URLS will be generated on base 62. 
 
+for each URL that is entered, I will want to save the ID, the title, the short URL and the long URL. Anything else??
+
 
 # Intial Setup
 
