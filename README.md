@@ -5,6 +5,8 @@ for each URL that is entered, I will want to save the ID, the title, the short U
 required add ons:
 https://github.com/steventen/base62-rb - Base62     
 
+Enviornment setup troubleshooting:
+    getting docker build to work required uninstalling 
 
 # Intial Setup
 
