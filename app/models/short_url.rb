@@ -8,6 +8,7 @@ class ShortUrl < ApplicationRecord
   validate :validate_full_url
 
   def short_code
+    base62.encode(full_url)
   end
 
   def update_title!
@@ -16,7 +17,6 @@ class ShortUrl < ApplicationRecord
   private
 
   def validate_full_url
-    open(full_url)
   end
 
 end
