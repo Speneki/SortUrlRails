@@ -1,3 +1,6 @@
+require "base62-rb"
+require 'open-uri'
+
 class ShortUrl < ApplicationRecord
 
   CHARACTERS = [*'0'..'9', *'a'..'z', *'A'..'Z'].freeze
@@ -13,6 +16,7 @@ class ShortUrl < ApplicationRecord
   private
 
   def validate_full_url
+    open(full_url)
   end
 
 end

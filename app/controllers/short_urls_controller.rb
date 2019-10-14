@@ -21,6 +21,15 @@ class ShortUrlsController < ApplicationController
 
   def show
   end
+  
+  private
 
+  def create_params
+    params.require(:shortUrl).permit(:full_url)
+  end
+
+  def short_url
+    params.permit(:short_code)
+  end
 
 end
