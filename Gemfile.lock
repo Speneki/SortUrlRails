@@ -58,6 +58,7 @@ GEM
       zeitwerk (~> 2.1, >= 2.1.8)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    base62-rb (0.3.1)
     bindex (0.8.1)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
@@ -236,6 +237,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  base62-rb
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
@@ -245,6 +247,7 @@ DEPENDENCIES
   mysql2
   puma (~> 3.11)
   rails (~> 6.0.0)
+  rake (= 13.0.0)
   resque
   rspec-rails
   sass-rails (~> 5)
@@ -259,4 +262,4 @@ RUBY VERSION
    ruby 2.6.4p104
 
 BUNDLED WITH
-   1.17.3
+   1.17.2

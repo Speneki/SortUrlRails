@@ -2,6 +2,9 @@ The goal is to create a URL shorener, and save URLS in the database to grab late
 
 for each URL that is entered, I will want to save the ID, the title, the short URL and the long URL. Anything else??
 
+required add ons:
+https://github.com/steventen/base62-rb - Base62     
+
 
 # Intial Setup
 
