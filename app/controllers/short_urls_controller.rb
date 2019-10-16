@@ -20,12 +20,13 @@ class ShortUrlsController < ApplicationController
   end
 
   def show
+    render json: ShortUrl.order(click_count: :desc).limit(100)
   end
-  
+
   private
 
   def create_params
-    params.require(:shortUrl).permit(:full_url)
+    params.require(:ShortUrl).permit(:full_url)
   end
 
   def short_url
